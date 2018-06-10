@@ -3,7 +3,7 @@ package runner
 import (
 	"testing"
 
-	"github.com/Janulka/dat"
+	"github.com/nerdynz/dat"
 	"gopkg.in/stretchr/testify.v1/assert"
 )
 

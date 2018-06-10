@@ -16,9 +16,9 @@ If you are not using glide in your project
 ```sh
 cd $GOPATH/src
 # remove dir if it exists
-# rm -rf gopkg.in/mgutz/dat.v1
-git clone -b v1 https://github.com/mgutz/dat gopkg.in/mgutz/dat.v1
-cd gopkg.in/mgutz/dat.v1
+# rm -rf github.com/nerdynz/dat
+git clone -b v1 https://github.com/mgutz/dat github.com/nerdynz/dat
+cd github.com/nerdynz/dat
 glide install
 ```
 
@@ -27,5 +27,5 @@ glide install
 If you are already using glide for your project
 
 ```sh
-glide get gopkg.in/mgutz/dat.v1
+glide get github.com/nerdynz/dat
 ```

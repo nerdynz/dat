@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/nerdynz/dat"
+	"github.com/nerdynz/dat/kvs"
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"
 	guid "github.com/satori/go.uuid"
-	"github.com/Janulka/dat"
-	"github.com/Janulka/dat/kvs"
 )
 
 // database is the interface for sqlx's DB or Tx against which
@@ -718,5 +718,5 @@ func (ex *Execer) queryObject(dest interface{}) error {
 
 // uuid generates a UUID.
 func uuid() string {
-	return fmt.Sprintf("%s", guid.NewV4())
+	return fmt.Sprintf("%s", guid.Must(guid.NewV4()))
 }

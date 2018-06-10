@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Janulka/dat"
+	"github.com/nerdynz/dat"
 	"gopkg.in/stretchr/testify.v1/assert"
 
-	"github.com/Janulka/jo/v1"
+	"github.com/nerdynz/jo/v1"
 )
 
 func TestCachePre(t *testing.T) {

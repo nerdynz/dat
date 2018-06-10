@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/Janulka/dat"
+	"github.com/nerdynz/dat"
 )
 
 // Execer executes queries against a database.
