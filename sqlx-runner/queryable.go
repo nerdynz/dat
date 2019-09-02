@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/helloeave/dat/dat"
+	"github.com/nerdynz/dat/dat"
 	"github.com/jmoiron/sqlx"
 )
 

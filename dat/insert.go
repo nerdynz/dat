@@ -5,7 +5,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/helloeave/dat/internal/log"
+	"github.com/nerdynz/dat/internal/log"
 )
 
 // InsertBuilder contains the clauses for an INSERT statement

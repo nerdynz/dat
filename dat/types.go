@@ -8,7 +8,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/helloeave/dat/internal/log"
+	"github.com/nerdynz/dat/internal/log"
 	"github.com/lib/pq"
 )
 

@@ -3,7 +3,7 @@ package dat
 import (
 	"reflect"
 
-	"github.com/helloeave/dat/internal/log"
+	"github.com/nerdynz/dat/internal/log"
 )
 
 // InsectBuilder inserts or selects an existing row when executed.

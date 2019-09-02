@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	"github.com/helloeave/dat/internal/log"
+	"github.com/nerdynz/dat/internal/log"
 )
 
 func newRedisPool(host, password string) *redis.Pool {

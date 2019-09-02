@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/helloeave/dat/dat"
-	"github.com/helloeave/dat/sqlx-runner"
+	"github.com/nerdynz/dat/dat"
+	"github.com/nerdynz/dat/sqlx-runner"
 	"github.com/mgutz/ansi"
 	"github.com/mgutz/str"
 	do "gopkg.in/godo.v2"

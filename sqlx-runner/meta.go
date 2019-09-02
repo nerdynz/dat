@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"hash/fnv"
 
-	"github.com/helloeave/dat/dat"
-	"github.com/helloeave/dat/internal/log"
+	"github.com/nerdynz/dat/dat"
+	"github.com/nerdynz/dat/internal/log"
 )
 
 // MustCreateMetaTable creates the dat__meta table or panics.

@@ -1,6 +1,6 @@
 package runner
 
-import "github.com/helloeave/dat/dat"
+import "github.com/nerdynz/dat/dat"
 
 // Connection is a queryable connection and represents a DB or Tx.
 type Connection interface {

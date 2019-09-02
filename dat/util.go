@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/helloeave/dat/internal/log"
+	"github.com/nerdynz/dat/internal/log"
 	"github.com/mgutz/str"
 
-	"github.com/helloeave/dat/common"
+	"github.com/nerdynz/dat/common"
 )
 
 // NameMapping is the routine to use when mapping column names to struct properties

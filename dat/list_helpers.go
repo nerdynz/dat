@@ -1,7 +1,7 @@
 package dat
 
 import (
-	"github.com/helloeave/dat/common"
+	"github.com/nerdynz/dat/common"
 )
 
 var bufPool = common.NewBufferPool()

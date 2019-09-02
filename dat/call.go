@@ -1,6 +1,6 @@
 package dat
 
-import "github.com/helloeave/dat/internal/log"
+import "github.com/nerdynz/dat/internal/log"
 
 // CallBuilder is a store procedure call builder.
 type CallBuilder struct {

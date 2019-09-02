@@ -107,7 +107,7 @@
 Get it
 
 ```sh
-go get -u github.com/helloeave/dat
+go get -u github.com/nerdynz/dat
 ```
 
 Use it
@@ -117,8 +117,8 @@ import (
     "database/sql"
 
     _ "github.com/lib/pq"
-    "github.com/helloeave/dat/dat"
-    "github.com/helloeave/dat/sqlx-runner"
+    "github.com/nerdynz/dat/dat"
+    "github.com/nerdynz/dat/sqlx-runner"
 )
 
 // global database (pooling provided by SQL driver)

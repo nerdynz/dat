@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/helloeave/dat/common"
-	"github.com/helloeave/dat/dat"
-	"github.com/helloeave/dat/postgres"
+	"github.com/nerdynz/dat/common"
+	"github.com/nerdynz/dat/dat"
+	"github.com/nerdynz/dat/postgres"
 	"github.com/lib/pq/hstore"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/stretchr/testify.v1/assert"

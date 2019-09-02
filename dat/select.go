@@ -1,6 +1,6 @@
 package dat
 
-import "github.com/helloeave/dat/internal/log"
+import "github.com/nerdynz/dat/internal/log"
 
 // SelectBuilder contains the clauses for a SELECT statement
 type SelectBuilder struct {

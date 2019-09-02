@@ -3,7 +3,7 @@ package dat
 import (
 	stdlog "log"
 
-	"github.com/helloeave/dat/internal/log"
+	"github.com/nerdynz/dat/internal/log"
 )
 
 type LogFunc = log.LogFunc
