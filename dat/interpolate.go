@@ -80,9 +80,9 @@ func Interpolate(sql string, vals []interface{}) (string, []interface{}, error) 
 			return sql, nil, nil
 		}
 
-		if lenVals > 0 && !hasPlaceholders {
-			return "", nil, log.ErrorE("Interpolation error", "err", ErrArgumentMismatch, "sql", sql, "args", vals)
-		}
+		// if lenVals > 0 && !hasPlaceholders { // REMOVED THIS REQUIREMENT... I want to pass vals and decide to use them or not.... No dramas if I can't interpolate the values. just ignore em ??? is this dangerous
+		// 	return "", nil, log.ErrorE("Interpolation error", "err", ErrArgumentMismatch, "sql", sql, "args", vals)
+		// }
 
 		if !hasPlaceholders {
 			return sql, nil, nil
