@@ -1,3 +1,0 @@
-verifying github.com/nerdynz/dat@v1.1.10/go.mod: checksum mismatch
-	downloaded: h1:+lu6obvKWGILi/FvGpWeoHV/1C/nkR3Twol5AYFHQhA=
-	go.sum:     h1:MxO4BF+aDt/LK9hLWm4q0ZL35ftAi9P77ynqLyMXJjY=
