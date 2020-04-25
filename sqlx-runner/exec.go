@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jmoiron/sqlx"
+	"github.com/lib/pq"
 	"github.com/nerdynz/dat/dat"
 	"github.com/nerdynz/dat/internal/log"
 	"github.com/nerdynz/dat/kvs"
-	"github.com/jmoiron/sqlx"
-	"github.com/lib/pq"
 	guid "github.com/satori/go.uuid"
 )
 
@@ -709,5 +709,5 @@ func (ex *Execer) queryObject(dest interface{}) error {
 
 // uuid generates a UUID.
 func uuid() string {
-	return fmt.Sprintf("%s", guid.Must(guid.NewV4()))
+	return fmt.Sprintf("%s", guid.Must(guid.NewV4(), errors.New("really shouldn't occur")))
 }
