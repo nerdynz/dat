@@ -709,5 +709,5 @@ func (ex *Execer) queryObject(dest interface{}) error {
 
 // uuid generates a UUID.
 func uuid() string {
-	return fmt.Sprintf("%s", guid.Must(guid.NewV4(), errors.New("really shouldn't occur")))
+	return fmt.Sprintf("%s", guid.Must(guid.NewV4()))
 }
