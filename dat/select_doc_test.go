@@ -6,7 +6,7 @@ import (
 
 	"github.com/mgutz/str"
 
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestSelectDocSQLNoDocs(t *testing.T) {

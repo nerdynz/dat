@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 var regexpWS = regexp.MustCompile(`\s`)

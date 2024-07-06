@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/nerdynz/dat/postgres"
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 type varargs []interface{}

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestSnakeCaseID(t *testing.T) {

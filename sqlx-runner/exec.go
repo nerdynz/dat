@@ -16,7 +16,6 @@ import (
 	"github.com/nerdynz/dat/dat"
 	"github.com/nerdynz/dat/internal/log"
 	"github.com/nerdynz/dat/kvs"
-	guid "github.com/satori/go.uuid"
 )
 
 // database is the interface for sqlx's DB or Tx against which
@@ -707,7 +706,7 @@ func (ex *Execer) queryObject(dest interface{}) error {
 	return nil
 }
 
-// uuid generates a UUID.
-func uuid() string {
-	return fmt.Sprintf("%s", guid.Must(guid.NewV4()))
-}
+// // uuid generates a UUID.
+// func uuid() string {
+// 	return fmt.Sprintf("%s", guid.Must(guid.NewV4()))
+// }

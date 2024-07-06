@@ -3,7 +3,7 @@ package dat
 import (
 	"testing"
 
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/stretchr/testify/assert"
 
 	"github.com/mgutz/str"
 )

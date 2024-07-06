@@ -7,7 +7,7 @@ import (
 
 	"github.com/lib/pq"
 
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestNullStringFrom(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nerdynz/dat/dat"
 	"github.com/lib/pq/hstore"
+	"github.com/nerdynz/dat/dat"
+	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/stretchr/testify.v1/assert"
 )
 
 func TestUpsertReal(t *testing.T) {

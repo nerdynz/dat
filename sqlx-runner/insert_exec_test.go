@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/lib/pq/hstore"
 	"github.com/nerdynz/dat/common"
 	"github.com/nerdynz/dat/dat"
 	"github.com/nerdynz/dat/postgres"
-	"github.com/lib/pq/hstore"
+	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/stretchr/testify.v1/assert"
 )
 
 func TestInsertKeywordColumnName(t *testing.T) {

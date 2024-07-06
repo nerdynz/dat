@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/jmoiron/sqlx"
 	"github.com/nerdynz/dat/dat"
 	"github.com/nerdynz/dat/internal/log"
-	"github.com/jmoiron/sqlx"
+	"github.com/oklog/ulid/v2"
 )
 
 // Execer executes queries against a database.
@@ -49,7 +50,7 @@ func (ex *Execer) Cache(id string, ttl time.Duration, invalidate bool) dat.Exece
 func (ex *Execer) Timeout(timeout time.Duration) dat.Execer {
 	ex.timeout = timeout
 	if timeout > 0 {
-		ex.queryID = uuid()
+		ex.queryID = ulid.Make().String()
 	} else {
 		ex.queryID = ""
 	}

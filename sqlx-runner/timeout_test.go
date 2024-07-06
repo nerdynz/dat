@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nerdynz/dat/dat"
 	"github.com/mgutz/jo/v1"
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/nerdynz/dat/dat"
+	"github.com/stretchr/testify/assert"
 )
 
 type TimeoutPerson struct {
